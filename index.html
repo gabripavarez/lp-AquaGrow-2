@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="'Sistema hidropônico automatizado!" />
+  <link rel="stylesheet" href="src/css/reset.css" /> 
+  <link rel="stylesheet" href="src/css/style.css" />
+  <link rel="stylesheet" href="src/css/responsive.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+
+  <title>AquaGrow</title>
+</head>
+
+<body>
+  <header class="cabecalho">
+    <a href="#" class="logo">
+      <img src="./src/img/logo-cortada.png" alt="Água e planta" class="imagem" />
+      <span class="nome">AquaGrow</span>
+    </a>
+
+    <nav class="navegacao" id="navegacao">
+
+      <button class="btn-mobile" id="btn-mobile">
+        <span class="hamburguer"></span>
+      </button>
+
+      <ul class="menu">
+        <li class="item"><a href="#projetos">Projetos</a></li>
+        <li class="item"><a href="#quem-somos">Quem Somos</a></li>
+        <li class="item"><a href="#vantagens">Vantagens</a></li>
+        <li class="item"><a href="#feedbacks">Feedbacks</a></li>
+        <li class="item"><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="conteudo-principal">
+    <section class="paineis" id="projetos">
+      <h1 class="titulo">AQUAGROW</h1>
+
+      <div class="imagem-painel projeto1 mostrar"></div>
+
+      <div class="imagem-painel projeto2"></div>
+
+      <div class="imagem-painel projeto3"></div>
+
+      <a href="#" id="btn-voltar" class="seta btn-voltar">voltar</a>
+
+      <a href="#" id="btn-avancar" class="seta btn-avancar">avançar</a>
+    </section>
+
+    <section class="quem-somos" id="quem-somos">
+      <div class="conteudo">
+        <div class="informacoes">
+          <h2 class="titulo">Quem somos?</h2>
+
+          <p class="texto">
+            Somos uma equipe de estudantes do curso técnico de
+            Desenvolvimentos de Sistemas, determinada a fazer a diferença.
+            Nesta Landing Page, apresentamos o nosso mais novo projeto que
+            integra conhecimentos de Ciências da Natureza e Robótica,
+            desenvolvido com Arduino para criar novas alternativas de cultivo
+            e por em prática nossos aprendizados em sala de aula de
+            programação e eletrônica. Cada integrante de nossa equipe
+            contribui com dedicação e criatividade, unindo forças e
+            habilidades para criar um projeto inovador e sustentável.
+          </p>
+        </div>
+        <img src="./src/img/hydroponic-gardening.png" alt="hidroponia" class="imagem-hidro" />
+      </div>
+    </section>
+
+    <section class="vantagens" id="vantagens">
+      <div class="conteudo-vantagens">
+        <h2 class="titulo">Vantagens</h2>
+
+        <div class="vantagem">
+          <span class="texto">Sustentável</span>
+          <img src="./src/img/planeta-terra.png" alt="Planeta Terra" class="icone" />
+        </div>
+
+        <div class="vantagem">
+          <span class="texto">Inovador</span>
+          <img src="./src/img/bulb.png" alt="Lâmpada" class="icone" />
+        </div>
+
+        <div class="vantagem">
+
+          <span class="texto">Tecnológico</span>
+          <img src="./src/img/tecnologia.png" alt="Tecnologia" class="icone" />
+
+        </div>
+
+        <div class="vantagem">
+
+          <span class="texto">Orgânico</span>
+          <img src="./src/img/organico.png" alt="100% Orgânico" class="icone" />
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="feedbacks" id="feedbacks">
+      <h2 class="titulo">Feedbacks</h2>
+
+      <div class="cards-feedbacks">
+        <div class="card-feedback">
+          <img src="./src/img/_joaquin_piquerez.png" alt="" class="img-cliente" />
+          <span class="nome-cliente">Piquerez</span>
+          <p class="texto-cliente">
+            Olá! Estou impressionado com a rapidez como a minha planta está
+            crescendo! Em apenas algumas semanas, já colhi folhas frescas para
+            saladas. A hidroponia realmente acelera o processo de cultivo.
+          </p>
+          <div class="stars">
+            <img src="./src/img/estrelaamarela.png" alt="Estrela Amarela" class="star" />
+            <img src="./src/img/estrelaamarela.png" alt="Estrela Amarela" class="star" />
+            <img src="./src/img/estrelaamarela.png" alt="Estrela Amarela" class="star" />
+            <img src="./src/img/estrelaamarela.png" alt="Estrela Amarela" class="star" />
+            <img src="./src/img/estrelaamarela.png" alt="Estrela Amarela" class="star" />
+          </div>
+        </div>
+
+        <div class="card-feedback">
+          <img src="./src/img/diva.png" alt="" class="img-cliente" />
+          <span class="nome-cliente">Mary</span>
+          <p class="texto-cliente">
+            Uma das razões pelas quais escolhi a hidroponia automatizada foi a
+            possibilidade de cultivar alimentos sem o uso de pesticidas. Agora
+            posso ter certeza que estou comendo produtos frescos e saudáveis,
+            livres de químicos!
+          </p>
+
+          <div class="stars">
+            <img src="./src/img/estrelaamarela.png" alt="Estrela Amarela" class="star" />
+            <img src="./src/img/estrelaamarela.png" alt="Estrela Amarela" class="star" />
+            <img src="./src/img/estrelaamarela.png" alt="Estrela Amarela" class="star" />
+            <img src="./src/img/estrelaamarela.png" alt="Estrela Amarela" class="star" />
+            <img src="./src/img/estrelaamarela.png" alt="Estrela Amarela" class="star" />
+          </div>
+        </div>
+
+        <div class="card-feedback">
+          <img src="./src/img/istockphoto-1388648617-612x612.jpg" alt="" class="img-cliente" />
+          <span class="nome-cliente">Peter</span>
+          <p class="texto-cliente">
+            A manutenção do sistema hidropônico é muito simples. Com a
+            automatização de algumas tarefas, como irrigação e monitoramento
+            de nutrientes, tenho mais tempo para desfrutar do meu hobby de
+            jardinagem!
+          </p>
+          <div class="stars">
+            <img src="./src/img/estrelaamarela.png" alt="Estrela Amarela" class="star" />
+            <img src="./src/img/estrelaamarela.png" alt="Estrela Amarela" class="star" />
+            <img src="./src/img/estrelaamarela.png" alt="Estrela Amarela" class="star" />
+            <img src="./src/img/estrelaamarela.png" alt="Estrela Amarela" class="star" />
+            <img src="./src/img/estrelaamarela.png" alt="Estrela Amarela" class="star" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contato" id="contato">
+      <div class="conteudo">
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.739380453619!2d-45.7791277247057!3d-22.363467479641187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cb976ce6ce37d7%3A0xc365c077236f16f7!2sEscola%20Estadual%20C%C3%B4nego%20Jos%C3%A9%20Eug%C3%AAnio%20De%20Faria!5e0!3m2!1spt-BR!2sbr!4v1729680777233!5m2!1spt-BR!2sbr"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="container-form">
+          <h2 class="titulo">Como podemos te ajudar?</h2>
+          <form action="POST" id="form" class="form">
+            <div class="campo-form">
+              <label for="nome">Seu nome</label>
+              <input type="text" id="nome" placeholder="Digite seu nome completo...">
+              <a>Mensagem de erro...</a>
+            </div>
+
+            <div class="campo-form">
+              <label for="email">Seu email</label>
+              <input type="email" id="email" placeholder="Digite seu email...">
+              <a>Mensagem de erro...</a>
+            </div>
+
+            <div class="campo-form">
+              <label for="mensagem">Deixa sua mensagem</label>
+              <input type="textarea" id="mensagem" placeholder="Explique como podemos te ajudar...">
+              <a>Mensagem de erro...</a>
+            </div>
+
+            <button type="submit">Enviar</button>
+            
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape" id="rodape">
+      <nav class="navegacao">
+        <a href="#" class="logo">
+          <img src="./src/img/logo-cortada.png" alt="planta e água" class="imagem" />
+          <span class="nome">AquaGrow</span>
+        </a>
+        <div class="redes-sociais">
+          <a href="#" class="redes-social">
+            <i class="fab fa-facebook"></i>
+          </a>
+
+          <a href="https://www.instagram.com/danieuxz?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+            class="redes-social">
+            <i class="fab fa-instagram"></i>
+          </a>
+
+          <a href="#" class="redes-social">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+
+          <a href="#" class="redes-social">
+            <i class="fab fa-tiktok"></i>
+          </a>
+        </div>
+      </nav>
+      <p class="copyright">Todos os direitos reservados</p>
+    
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/js/all.min.js"></script>
+
+  <script src="./src/js/slide.js"></script>
+  <script src="./src/js/contato.js"></script>
+  <script src="./src/js/menu-mobile.js"></script>
+  
+</body>
+</html>
